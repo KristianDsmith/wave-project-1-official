@@ -516,3 +516,42 @@
     text-align: center;
     font-size: 1.8rem;
   }
+
+  /**************************/
+/* THE KITCHEN */
+/**************************/
+
+.section-the-kitchen {
+    padding: 9.6rem 0;
+  }
+  
+  .section-the-kitchen {
+    /* Sizing */
+    width: 100vw;
+    height: 70vh;
+  
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Text styles */
+    text-align: center;
+    color: #fff;
+  
+    /* Background styles */
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+      url(../images/pexels-mateusz-dach-3660229-compressed.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .heading-primary {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
