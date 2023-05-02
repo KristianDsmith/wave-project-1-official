@@ -3,3 +3,153 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555555;
+
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a0e1d4;
+}
+
+.logo {
+    height: 90px;
+  }
+
+.container {
+    
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+
+/**************************/
+/* NAVIGATION */
+/***************************/
+
+   
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+  }
+  
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #555555;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+  }
+  
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    color: #e1e1e0;
+  }
+  
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #555555;
+  }
+  
+  .main-nav-link.nav-cta:hover,
+  .main-nav-link.nav-cta:active {
+    background-color: #a0e1d4;
+  }
+
+  /**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+  
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Text styles */
+    text-align: center;
+    color: #fff;
+  
+    /* Background styles */
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+      url(https://res.cloudinary.com/dqe39dixt/image/upload/v1682235851/pexels-jess-loiterton-4319735-hero_zbkuzi.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    color: #fff;
+  
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+  
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /* Text styles */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+  
+    /* Border styles */
+    border: 3px solid #a0e1d4;
+    border-radius: 20px;
+  
+    /* Background styles */
+    background-color: #555555;
+  }
+  
+  .hero-location {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
