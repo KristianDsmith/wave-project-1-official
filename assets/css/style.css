@@ -423,8 +423,9 @@
   .step-img {
     width: 70%;
     border-radius: 12px;
-    border: solid #a0e1d4 5px;
-    /* z-index: 10; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    /*border: solid #a0e1d4 5px;*/
+    
   }
   
   .about-quote {
