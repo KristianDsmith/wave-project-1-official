@@ -777,3 +777,93 @@
 #photos>img {
     width: 100%;
 }
+
+/**************************/
+/* RETREAT */
+/**************************/
+
+.section-retreat {
+    /* Sizing */
+    width: 100vw;
+    height: 70vh;
+  
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Text styles */
+    text-align: center;
+    color: #fff;
+  
+    /* Background styles */
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+      url(../images/pexels-jess-loiterton-4322441-correct-size-compressed.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    color: #fff;
+  
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  .retreat {
+    color: #555555;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .retreat-background {
+    color: #a0e1d4;
+    background-color: #555555;
+    height: 30px;
+    width: 200px;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .retreat-list {
+    align-content: center;
+    color: #555555;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .section-yoga {
+    /* Sizing */
+    width: 100vw;
+    height: 70vh;
+  
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Text styles */
+    text-align: center;
+    color: #fff;
+  
+    /* Background styles */
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+      url(../images/pexels-tima-miroshnichenko-correct-size-5928247-compressed.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
