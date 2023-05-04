@@ -635,4 +635,78 @@
   .footer-link:active {
     color: #555;
   }
-  
+
+
+  /**************************/
+/* ACCOMADATION */
+/**************************/
+
+.section-accomadation {
+  /* Sizing */
+  width: 100vw;
+  height: 80vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: #fff;
+
+  /* Background styles */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+    url(../images/pexels-rachel-claire-4825721-compressed.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  color: #fff;
+
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.section-accomadation-info {
+  padding: 9.6rem 0;
+}
+
+.accomadation {
+  color: #555555;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 3.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.glamping {
+  /* Sizing */
+  width: 100vw;
+  height: 80vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: #fff;
+
+  /* Background styles */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+    url(../images/pexels-anastasia-shuraeva-4989096-compressed.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
