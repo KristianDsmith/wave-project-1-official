@@ -644,7 +644,7 @@
 .section-accomadation {
   /* Sizing */
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
 
   /* Flexbox stuff */
   display: flex;
@@ -690,7 +690,7 @@
 .glamping {
   /* Sizing */
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
 
   /* Flexbox stuff */
   display: flex;
