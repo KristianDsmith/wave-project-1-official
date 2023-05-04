@@ -710,3 +710,70 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/**************************/
+/* THE KITCHEN PAGE */
+/**************************/
+
+.section-the-kitchen-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kitchen-container {
+    padding: 9.6rem;
+  }
+  
+  .kitchen-img {
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+  }
+  
+  .kitchen-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+  }
+  
+  .kitchen-name {
+    font-size: 1.6rem;
+    color: #555555;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+
+  /* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+}
