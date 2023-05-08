@@ -1034,10 +1034,12 @@
     .hero-text-box {
       text-align: center;
     }
+
+    
   
  .section-accomadation-info, .section-accomadation-info .container .section-the-kitchen{
     grid-template-columns: 2fr;
-      padding: 0 8rem;
+      padding: 3.1rem 8rem;
       gap: 6.4rem;
  }
   
@@ -1218,26 +1220,13 @@
       transform: translateY(2.4rem);
     }
   
-    .testimonials {
-      grid-template-columns: 1fr;
-    }
+  
   
     .gallery {
       grid-template-columns: repeat(4, 1fr);
       gap: 1.2rem;
     }
   
-    .cta {
-      grid-template-columns: 1fr;
-    }
-  
-    .cta-text-box {
-      padding: 3.2rem;
-    }
-  
-    .cta-img-box {
-      height: 32rem;
-      grid-row: 1;
-    }
+    
   }
   
