@@ -1148,8 +1148,9 @@
       margin-bottom: 4.8rem;
     }
   
-    .pricing-plan {
-      width: 100%;
+    .package {
+      width: 90%;
+      justify-self: center;
     }
   
     .grid--footer {
