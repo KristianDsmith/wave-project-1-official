@@ -352,11 +352,11 @@
     font-size: 1.5em;
   
     /* Border styles */
-    border: 3px solid #a0e1d4;
+    border: 1px solid #555555;
     border-radius: 20px;
   
     /* Background styles */
-    background-color: #555555;
+    background-color: #a0e1d4;
   }
   
   .hero-location {
