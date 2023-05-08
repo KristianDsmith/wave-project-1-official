@@ -385,7 +385,7 @@
 /**************************/
 
 .section-about {
-    padding: 9.6rem 0;
+    padding: 50px 0;
   }
   
   .step-number {
@@ -439,7 +439,7 @@
 /**************************/
 
 .section-package {
-    padding: 9.6rem 0;
+    padding: 50px 0;
   }
   
   .package {
@@ -525,7 +525,7 @@
 /**************************/
 
 .section-the-kitchen {
-    padding: 9.6rem 0;
+    padding: 50px 0;
   }
   
   .section-the-kitchen {
@@ -564,7 +564,7 @@
 /**************************/
 
 .footer {
-    padding: 12.8rem 0;
+    padding: 70px 0;
     border-top: 1px solid #eee;
     background-color: #a0e1d4;
   }
@@ -678,7 +678,7 @@
 }
 
 .section-accomadation-info {
-  padding: 9.6rem 0;
+  padding: 50px 0;
 }
 
 .accomadation {
@@ -727,7 +727,7 @@
   
   
   .kitchen-container {
-    padding: 9.6rem;
+    padding: 50px;
   }
   
   .kitchen-img {
@@ -880,16 +880,17 @@
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.455);
+    color: #555555;
+    background-color: rgba(160, 225, 212, 0.802);
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
+    border-radius: 12px;
 }
 
 .signup-form > h2 {
-    color: #fafafa;
+    color: #555555;
     margin-bottom: 20px;
 }
 
@@ -899,21 +900,21 @@
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #555555;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #a0e1d4;
+    border-color: #fafafa;
 }
 
 .join-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 12px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #a0e1d4;
+    background-color: #555555;
     color: #fafafa;
     display: block;
 }
