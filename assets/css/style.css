@@ -1035,7 +1035,7 @@
       text-align: center;
     }
   
- .section-accomadation-info {
+ .section-accomadation-info, .section-accomadation-info .container .section-the-kitchen{
     grid-template-columns: 2fr;
       padding: 0 8rem;
       gap: 6.4rem;
@@ -1062,7 +1062,7 @@
     
   
     .gallery {
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
   
   
