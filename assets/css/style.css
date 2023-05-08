@@ -963,7 +963,7 @@
     }
   
     .gallery {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
   }
 
@@ -1005,4 +1005,8 @@
     .testimonials-container {
       padding: 9.6rem 3.2rem;
     }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
   }
