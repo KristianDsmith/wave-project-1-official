@@ -1035,12 +1035,17 @@
       text-align: center;
     }
   
- 
+ .section-accomadation-info {
+    grid-template-columns: 2fr;
+      padding: 0 8rem;
+      gap: 6.4rem;
+ }
   
     .section-about {
       justify-content: center;
       margin-top: 3.2rem;
     }
+
   
     .logos img {
       height: 2.4rem;
