@@ -40,13 +40,9 @@
     display: grid;
     column-gap: 6.4rem;
     row-gap: 4.3rem;
-  
-    /* margin-bottom: 4.3rem; */
   }
   
-  /* .grid:last-child {
-    margin-bottom: 0;
-  } */
+  
   
   .grid:not(:last-child) {
     margin-bottom: 9.6rem;
@@ -64,10 +60,6 @@
     grid-template-columns: repeat(4, 1fr);
   }
   
-  /* .grid--5-cols {
-    grid-template-columns: repeat(5, 1fr);
-  } */
-  
   .grid--center-v {
     align-items: center;
   }
@@ -77,8 +69,6 @@
   .heading-tertiary {
     font-weight: 700;
     color: #555555;
-    /* color: #45260a; */
-    /* color: #343a40; */
     letter-spacing: -0.5px;
   }
   
@@ -214,9 +204,8 @@
   
   *:focus {
     outline: none;
-    /* outline: 4px dotted #e67e22; */
-    /* outline-offset: 8px; */
-    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+    
+    box-shadow: 0 0 0 0.8rem rgba(85, 85, 85, 0.549);
   }
   
   /* HELPER/SETTINGS CLASSES */
