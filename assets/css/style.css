@@ -407,8 +407,6 @@
     width: 70%;
     border-radius: 12px;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-    /*border: solid #a0e1d4 5px;*/
-    
   }
   
   .about-quote {
@@ -782,8 +780,6 @@
     
   }
 
- 
-  
   .hero h1 {
     /* Text styles */
     font-size: 5em;
@@ -1095,7 +1091,7 @@
         margin-right: 50px;
         margin-top: 40px;
         line-height: 20px;
-        gap: 2.4rem;
+        gap: 1.6rem;
       }
   
     .btn,
@@ -1116,10 +1112,6 @@
       padding: 0 3.2rem;
     }
   
-   /* .hero-img {
-      width: 80%;
-    }*/
-  
     .logos img {
       height: 1.2rem;
     }
@@ -1139,8 +1131,6 @@
     .step-img {
         width: 95%;
     }
-  
-  
   
     .gallery {
         grid-template-columns: repeat(2, 1fr);
