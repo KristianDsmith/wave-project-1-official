@@ -1096,12 +1096,17 @@
       grid-template-columns: 1fr;
     }
 
+    .logo {
+        height: 60px;
+      }
+
     .main-nav-list {
-        clear:left;
-        float: left;
-        margin-left: 30px;
-        margin-top: 55px;
-        line-height: 25px;
+        clear:right;
+        float: right;
+        margin-right: 50px;
+        margin-top: 40px;
+        line-height: 20px;
+        gap: 2.4rem;
       }
   
     .btn,
