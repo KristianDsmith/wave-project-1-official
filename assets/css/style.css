@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+
+
   
   html {
     /* font-size: 10px; */
@@ -25,6 +28,8 @@
     /* Only works if there is nothing absolutely positioned in relation to body */
     overflow-x: hidden;
   }
+
+  
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
@@ -236,13 +241,13 @@
     background-color: #a0e1d4;
   
     /* Because we want header to be sticky later */
-    height: 9.6rem;
+    height: 10.6rem;
     padding: 0 4.8rem;
     position: relative;
   }
   
   .logo {
-    height: 90px;
+    height: 100px;
   }
   
   /**************************/
@@ -283,6 +288,9 @@
   .main-nav-link.nav-cta:active {
     background-color: #a0e1d4;
   }
+
+
+  
 
 
 
@@ -989,6 +997,8 @@
       text-align: center;
     }
 
+ 
+
     
   
  .section-accomadation-info, .section-accomadation-info .container .section-the-kitchen{
@@ -1067,29 +1077,30 @@
   }
   
   /**************************/
-  /* BELOW 544px (Phones) */
+  /* BELOW 375px (Phones) */
   /**************************/
   
-  @media (max-width: 34em) {
+  @media (max-width: 23em) {
     .grid {
       row-gap: 4.8rem;
     }
   
     .grid--2-cols,
     .grid--3-cols,
-    .grid--4-cols {
+    .grid--4-cols, .container, .grid {
       grid-template-columns: 1fr;
     }
 
     .logo {
-        height: 60px;
+        height: 40px;
+        margin-right: 20px;
       }
 
     .main-nav-list {
-        clear:right;
+        clear: right;
         float: right;
-        margin-right: 50px;
-        margin-top: 40px;
+        margin-left: 70px;
+        margin-top: 60px;
         line-height: 20px;
         gap: 1.6rem;
       }
@@ -1115,6 +1126,8 @@
     .logos img {
       height: 1.2rem;
     }
+
+   
   
     .step-img-box:nth-child(2) {
       grid-row: 1;
