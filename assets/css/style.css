@@ -253,10 +253,17 @@
   /**************************/
   /* NAVIGATION */
   /**************************/
+
+
   
   .main-nav-list {
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    
     align-items: center;
     gap: 4.8rem;
   }
@@ -269,6 +276,11 @@
     font-weight: 400;
     font-size: 1.8rem;
     transition: all 0.3s;
+    background-color: black;
+
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
   }
   
   .main-nav-link:hover,
