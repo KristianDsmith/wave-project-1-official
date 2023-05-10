@@ -307,7 +307,7 @@
     /* Background styles */
   
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/pexels-jess-loiterton-4319735-hero-compressed.jpeg);
+      url(../images/group-surfing-hero.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -524,7 +524,7 @@
     /* Background styles */
   
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/pexels-mateusz-dach-3660229-compressed.jpeg);
+      url(../images/restaurant-view-of-beach.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -685,7 +685,7 @@
   /* Background styles */
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-    url(../images/pexels-anastasia-shuraeva-4989096-compressed.jpeg);
+    url(../images/view-of-inside-glmaping-tent.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -771,7 +771,7 @@
     /* Background styles */
   
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/pexels-jess-loiterton-4322441-correct-size-compressed.jpeg);
+      url(../images/girl-surfing-sunset.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -835,7 +835,7 @@
     /* Background styles */
   
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/pexels-tima-miroshnichenko-correct-size-5928247-compressed.jpeg);
+      url(../images/two-girl-doing-yoga.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -846,7 +846,7 @@
 
 .form-section {
     clear: left;
-    background: url("../images/pexels-belle-co-1000445-compressed.jpeg");
+    background: url("../images/guest-jumping-in-the-sunset.jpeg");
     background-size: cover;
     background-position: center;
     height: 600px;
