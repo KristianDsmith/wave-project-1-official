@@ -1092,7 +1092,7 @@
 
 @media (max-width: 34em) {
     .grid {
-      row-gap: 4.8rem;
+      row-gap: 3.6rem;
     }
 
     .grid--2-cols,
@@ -1100,6 +1100,36 @@
     .grid--4-cols {
       grid-template-columns: 1fr;
     }
+
+    .hero h1 {
+        font-size: 4.4rem;
+    }
+
+      .main-nav-link:link,
+      .main-nav-link:visited {
+        font-size: 1.4rem;
+      }
+
+      .main-nav-list {
+        gap: 2.2rem;
+        
+      }
+
+      .btn,
+      .btn:link,
+      .btn:visited {
+        padding: 1.4rem 1.6rem;
+        margin-bottom: 10px;
+        
+      }
+
+      .hero .btn {
+        width: 100%;
+      }
+
+      .hero {
+        padding: 0 3.2rem;
+      }
 
     .gallery {
         grid-template-columns: repeat(1, 1fr);
@@ -1115,6 +1145,5 @@
   
 }
 
-  
-    
+
   
