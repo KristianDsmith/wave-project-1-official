@@ -15,7 +15,7 @@
 **Navigation Bar**
 
 - Featured on all four pages and the thank you page. 
-- The full responsive navigation bar includes links to the Logo, Accommadtion, Retreat, Kitchen, and Book page and is identical in each page to allow for easy navigation. 
+- The full responsive navigation bar includes links to the Logo, Accommodation, Retreat, Kitchen, and Book page and is identical in each page to allow for easy navigation. 
 - The logo links back to the home page in the header and the footer.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
@@ -40,13 +40,13 @@
 
 **Package section**
 
-- This are is to show some of things included in the package. Accommadation, Surfing and yoga. using images to show examples of each area. 
+- This are is to show some of things included in the package. Accommodation, Surfing and yoga. using images to show examples of each area. 
 - Also explaining skill levels required for activites. 
 
 ![package section landing page](/assets/images/package-section-landing-page.png)
 
 
-**The Kitchen**
+**Kitchen**
 
 - Full width image showing the loacation where guests will eat. 
 - With overlay text and link to sample menu. 
@@ -56,17 +56,18 @@
 
 **Footer**
 
-- The footer section includes links to the relevant social media sites for Love Running. 
+- The footer section includes links to the relevant social media sites for Wave. 
 - The links will open to a new tab to allow easy navigation for the user.
 - The footer also includes the loacation address and contact details. 
 
 ![footer](/assets/images/footer.png)
 
 
-**Accommadation page** 
+**Accommodation page** 
 
-- An overview of the accommadation avalbale at Wave retreat. 
-- Explaining the design and how many people can sleep. explains in detail the interiour and the fascilities available in an unordered list. 
+- An overview of the accommodation available at Wave retreat. 
+- Explaining the design and how many people can sleep. 
+- Explains in detail the interior and the fascilities available in an unordered list. 
 - Also included are the check in and check out times. 
 
 ![accommodation info](/assets/images/accommodation-info.png)
@@ -76,15 +77,15 @@
 
 **Retreat page**
 
-- This page explains the diffrent opetioans availble at the retreat with Surfing, Yoga and mediatation. 
-- It starts with a full widt scrolling image of a girl surfing at sunset. 
+- This page explains the diffrent options available at the retreat with surfing, yoga and mediatation. 
+- It starts with a full width scrolling image of a girl surfing at sunset. 
 - With Text over lay explaining the page.
 
 ![retreat hero image](/assets/images/retreat-hero-image.png)
 
-- Bellow are the diffrent sections of Surfing, Yoga and meditation. 
-- Exlplaining the deffrent levels beginner, intremediate and advamce options. 
-- Dail schedule added to see how each day would look like for the guests. 
+- Bellow are the different sections of surfing, yoga and meditation. 
+- Exlplaining the different levels beginner, intremediate and advance options. 
+- Daily schedule added to see how each day would look like for the guests. 
 
 ![retreat info](/assets/images/retreat-info.png)
 
@@ -100,13 +101,13 @@
 
 ![kitchen hero image](/assets/images/kitchen-hro-image.png)
 
-- Bellow this an explanaition of how the dishes are insped ad preppared. 
-- With an unodered list of a selection of options for breakfast buffet and dinner buffet. 
+- Bellow this an explanaition of how the dishes are inspired ad preppared. 
+- With an unordered list of a selection of options for breakfast buffet and dinner buffet. 
 - This is the page that is linked to the landing page. 
 
 ![kitchen menu](/assets/images/kitchen-menu.png)
 
-- Next is the gallery of 8 images os example dishes. 
+- Next is the gallery of 8 images as example dishes. 
 - With a transition on each zooming in slightly. 
 
 ![gallery section of menu dishes](/assets/images/kitchen-gallery.png)
@@ -127,14 +128,14 @@
 
 ## Testing
 
-- I have tested this website using google dev tools and insected each page. 
-- Checked for diffrent screen sizes, 1344px, 1200px, 944px, 704px and 544px screens. 
+- I have tested this website using google dev tools and inspected each page. 
+- Checked for different screen sizes, 1344px, 1200px, 944px, 704px and 544px screens. 
 - I ran into problem with navigation bar and the landing page view in the about section at 544px. 
 - But managed to fix this by reducing the font size in navigation bar and changing the collum in the about section. 
 - The look and feel of website works really well on diffrent browsers and screen sizes. 
 - I changed the gallery to work on each screen size so it was visually appealing. 
 - Also adjusted the padding on pages for each screen size. 
-- All lins throughout the website work and help navigate the guest thrugh the site to eventually contact and book. 
+- All links throughout the website work and help navigate the guest through the site to eventually contact and book. 
 - Once the form is filled in they are taken to a thank you page. 
 
 ## Validator Testing
@@ -166,13 +167,13 @@
 - The code to make the package section on landing page taken from video by. [Jonas Schmemedtmann](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
 
 **Icons**
-- The icons in the footer, landing, kicthen, package and accomadation pages  were taken from ionicons.com
+- The icons in the footer, landing, kicthen, package and accommodation pages  were taken from [ionicons.com] (https://www.ionicons.com)
 
 **Google Fonts**
 - Google fonts were used to import the 'Rubik' font into the style.css file which is used on all pages throughout the project.
 
 ## Media
-- The photos used on the landing, accommadation, retreat, kitchen, book and thank you pages are from this Open Source site [pexels.com](https://www.pexels.com)
+- The photos used on the landing, accommodation, retreat, kitchen, book and thank you pages are from this Open Source site [pexels.com](https://www.pexels.com)
 
 ## Deployment
 
