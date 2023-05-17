@@ -138,4 +138,7 @@ I have tested this website using google dev tools and insected each page. Checke
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here - https://kristiandsmith.github.io/wave-project-1-official/index.html
 
+## Wireframes
+
+![wireframe](/assets/images/thankyou-page.png)
 
