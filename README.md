@@ -95,6 +95,8 @@ The user will be asked to submit their full name and email address. Then taken t
 
 Testing
 
+I have tested this website using google dev tools and insected each page. Checked for diffrent screen sizes, 1344px, 1200px, 944px, 704px and 544px screens. I ran into problem with navigation bar and the landing page view in the about section at 544px. But managed to fix this by reducing the font size in navigation bar and changing the collum in the about section. The look and feel of website works really well on diffrent browsers and screen sizes. I changed the gallery to work on each screen size so it was visually appealing. also adjusted the padding on pages for each screen size. all lins throughout the website work and help navigate the guest thrugh the site to eventually contact and book. Once the form is filled in they are taken to a thank you page. 
+
 HTML
 No errors were returned when passing through the official W3C validator
 
@@ -106,5 +108,19 @@ The text for the all pages written by Kristian Smith
 
 The icons in the footer, landing, kicthen, package and accomadation pages  were taken from ionicons.com
 
+Google Fonts:
+Google fonts were used to import the 'Rubik' font into the style.css file which is used on all pages throughout the project.
+
 Media
 The photos used on the landing, accommadation, retreat, kitchen, book and thank you pages are from this Open Source site pexels.com
+
+Deployment
+
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://kristiandsmith.github.io/wave-project-1-official/index.html
+
+
