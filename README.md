@@ -14,11 +14,13 @@ This section will allow the user to easily navigate from page to page across all
 
 ![navigation bar](/assets/images/navvigation.png)
 
+
 **The landing page image**
 
 The landing includes a hero image with text overlay to allow the user to see what the surfing location looks like and the country it is in. There is a btn to book the retreat overlaying the hero image. 
 
 ![hero image landing page](/assets/images/hero-image-landing-page.png)
+
 
 **About section**
 
@@ -26,17 +28,20 @@ Explains the story behind Wave retreat and why you would want to stay here. It a
 
 ![about section info landing page](/assets/images/about-section-landing-page.png)
 
+
 **Package section**
 
 This are is to show some of things included in the package. Accommadation, Surfing and yoga. using images to show examples of each area. Also explaining skill levels required for activites. 
 
 ![package section landing page](/assets/images/package-section-landing-page.png)
 
+
 **The Kitchen**
 
 Full width image showing the loacation where guests will eat. With overlay text and link to sample menu. 
 
 ![kitchen hero landing page](/assets/images/kitchen-landing-page.png)
+
 
 **Footer**
 
@@ -55,6 +60,7 @@ an overview of the accommadation avalbale at Wave retreat. Explaining the design
 
 ![facilities list and check in and out times](/assets/images/facilities-info.png)
 
+
 **Retreat page**
 
 This page explains the diffrent opetioans availble at the retreat with Surfing, Yoga and mediatation. It starts with a full widt scrolling image of a girl surfing at sunset. With Text over lay explaining the page.
@@ -70,6 +76,7 @@ Finnished with a full width yoga image on the beach before the footer.
 
 ![yogoa hero](/assets/images/yogo-hero.png)
 
+
 **Kitchen**
 
 Full width hero image showing where guests will eat. This has a text overlay.
@@ -84,6 +91,7 @@ next is the gallery of 8 images os example dishes. With a transition on each zoo
 
 ![gallery section of menu dishes](/assets/images/kitchen-gallery.png)
 
+
 **Book**
 
 The booking page has a full width hero image of a group of people jumping on the beach in the sunset. The booking form is a overlay. 
@@ -93,6 +101,7 @@ The booking page has a full width hero image of a group of people jumping on the
 The user will be asked to submit their full name and email address. Then taken to a thank you page. 
 
 ![thank you page](/assets/images/thankyou-page.png)
+
 
 ## Testing
 
