@@ -156,6 +156,7 @@
 - The text for the all pages written by Kristian Smith
 
 **Code**
+
 The code to make the booking form was taken from Code Institute [Love Running (https://github.com/KristianDsmith/love-running)
 The code to make the package section on landing page taken from video by. [Jonas Schmemedtmann](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
 
