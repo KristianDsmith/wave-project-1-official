@@ -168,7 +168,7 @@
 - Google fonts were used to import the 'Rubik' font into the style.css file which is used on all pages throughout the project.
 
 ## Media
-- The photos used on the landing, accommadation, retreat, kitchen, book and thank you pages are from this Open Source site pexels.com
+- The photos used on the landing, accommadation, retreat, kitchen, book and thank you pages are from this Open Source site [pexels.com](https://www.pexels.com)
 
 ## Deployment
 
