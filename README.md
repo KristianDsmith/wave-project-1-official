@@ -2,7 +2,7 @@
 
 - Wave surf, yoga & eco retreat is a site for like-minded people looking for a special retreat to enjoy surfing, yoga and meditation. 
 - In unique surroundings in Portugal. 
-- This is an eco-retreat set up by the founders Daniel and Sarah smith. 
+- This is an eco-retreat set up by the founders Daniel and Sarah Smith. 
 - The site is targeted towards adults between 25-50 who are interested in self-development, personal growth, and healthy lifestyle. 
 - Often active, adventurous, environmentally conscious, and interests in sustainable travel option. 
 - The is website offers a range of interest including surfing, yoga, meditation and healthy sustainable food.
