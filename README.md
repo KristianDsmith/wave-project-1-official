@@ -140,5 +140,5 @@ I have tested this website using google dev tools and insected each page. Checke
 
 ## Wireframes
 
-![wireframe](/assets/images/thankyou-page.png)
+![wireframe](/assets/images/wireframe-wave-progect.png)
 
