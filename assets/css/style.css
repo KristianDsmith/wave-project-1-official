@@ -2,34 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
 
 
 
-  
-  html {
+
+html {
     /* font-size: 10px; */
-  
+
     /* 10px / 16px = 0.625 = 62.5% */
     /* Percentage of user's browser font-size setting */
     font-size: 62.5%;
     overflow-x: hidden;
-  
+
     /* Does NOT work on Safari */
     /* scroll-behavior: smooth; */
-  }
-  
-  body {
+}
+
+body {
     font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555555;
-  
+
     /* Only works if there is nothing absolutely positioned in relation to body */
     overflow-x: hidden;
-  }
+}
 
-  
+
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
@@ -39,64 +39,64 @@
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
-  }
-  
-  .grid {
+}
+
+.grid {
     display: grid;
     column-gap: 6.4rem;
     row-gap: 4.3rem;
-  }
-  
-  
-  
-  .grid:not(:last-child) {
+}
+
+
+
+.grid:not(:last-child) {
     margin-bottom: 9.6rem;
-  }
-  
-  .grid--2-cols {
+}
+
+.grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .grid--3-cols {
+}
+
+.grid--3-cols {
     grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .grid--4-cols {
+}
+
+.grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
-  }
-  
-  .grid--center-v {
+}
+
+.grid--center-v {
     align-items: center;
-  }
-  
-  .heading-primary,
-  .heading-secondary,
-  .heading-tertiary {
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
     font-weight: 700;
     color: #555555;
     letter-spacing: -0.5px;
-  }
-  
-  .heading-primary {
+}
+
+.heading-primary {
     font-size: 5.2rem;
     line-height: 1.05;
     margin-bottom: 3.2rem;
-  }
-  
-  .heading-secondary {
+}
+
+.heading-secondary {
     font-size: 4.4rem;
     line-height: 1.2;
     margin-bottom: 4.3rem;
-  }
-  
-  .heading-tertiary {
+}
+
+.heading-tertiary {
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 3.2rem;
     background-color: #a0e1d4;
-  }
-  
-  .subheading {
+}
+
+.subheading {
     display: block;
     font-size: 1.6rem;
     font-weight: 500;
@@ -109,68 +109,68 @@
     width: 180px;
     padding-top: 10px;
     padding-left: 10px;
-  }
-  
-  .info-text {
+}
+
+.info-text {
     color: #555555;
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 3.2rem;
     padding-bottom: 1.5rem;
-  }
-  
-  .btn,
-  .btn:link,
-  .btn:visited {
+}
+
+.btn,
+.btn:link,
+.btn:visited {
     display: inline-block;
-  
+
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
     padding: 1.6rem 3.2rem;
     border-radius: 25px;
-  
+
     /* Only necessary for .btn */
     border: none;
     cursor: pointer;
     font-family: inherit;
-  
+
     /* Put transition on original "state" */
     /* transition: background-color 0.3s; */
     transition: all 0.3s;
-  }
-  
-  .btn--full:link,
-  .btn--full:visited {
+}
+
+.btn--full:link,
+.btn--full:visited {
     background-color: #7bdcb5;
     color: #fff;
-  }
-  
-  .btn--full:hover,
-  .btn--full:active {
+}
+
+.btn--full:hover,
+.btn--full:active {
     background-color: #555555;
-  }
-  
-  .btn--outline:link,
-  .btn--outline:visited {
+}
+
+.btn--outline:link,
+.btn--outline:visited {
     background-color: #fff;
     color: #555;
-  }
-  
-  .btn--outline:hover,
-  .btn--outline:active {
+}
+
+.btn--outline:hover,
+.btn--outline:active {
     background-color: #fff;
-  
+
     /* border: 3px solid #fff; */
-  
+
     /* add border inside */
     box-shadow: inset 0 0 0 3px #7bdcb5;
-  }
-  
+}
 
-  
-  .link:link,
-  .link:visited {
+
+
+.link:link,
+.link:visited {
     display: inline-block;
     color: #fff;
     font-size: 20px;
@@ -178,59 +178,59 @@
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
     transition: all 0.3s;
-  }
-  
-  .link:hover,
-  .link:active {
+}
+
+.link:hover,
+.link:active {
     color: #a0e1d4;
     border-bottom: 1px solid transparent;
-  }
-  
-  .list {
+}
+
+.list {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-  }
-  
-  .list-item {
+}
+
+.list-item {
     font-size: 1.8rem;
     display: flex;
     align-items: center;
     gap: 1.6rem;
     line-height: 1.2;
-  }
-  
-  .list-icon {
+}
+
+.list-icon {
     width: 3rem;
     height: 3rem;
     color: #a0e1d4;
-  }
-  
-  *:focus {
-    outline: none;
-    
-    box-shadow: 0 0 0 0.8rem rgba(85, 85, 85, 0.549);
-  }
-  
-  /* HELPER/SETTINGS CLASSES */
-  .margin-right-sm {
-    margin-right: 1.6rem !important;
-  }
-  
-  .margin-bottom-md {
-    margin-bottom: 4.8rem !important;
-  }
-  
-  .center-text {
-    text-align: center;
-  }
-  
-  strong {
-    font-weight: 500;
-  }
+}
 
-  /**************************/
+*:focus {
+    outline: none;
+
+    box-shadow: 0 0 0 0.8rem rgba(85, 85, 85, 0.549);
+}
+
+/* HELPER/SETTINGS CLASSES */
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+    margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+strong {
+    font-weight: 500;
+}
+
+/**************************/
 /* HEADER */
 /**************************/
 
@@ -239,74 +239,74 @@
     justify-content: space-between;
     align-items: center;
     background-color: #a0e1d4;
-  
+
     /* Because we want header to be sticky later */
     height: 10.6rem;
     padding: 0 4.8rem;
     position: relative;
-  }
-  
-  .logo {
+}
+
+.logo {
     height: 100px;
-  }
-  
-  /**************************/
-  /* NAVIGATION */
-  /**************************/
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
 
 
-  
-  .main-nav-list {
+
+.main-nav-list {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     justify-items: center;
     margin-top: 50px;
-    
+
     align-items: center;
     gap: 4.8rem;
-  }
-  
-  .main-nav-link:link,
-  .main-nav-link:visited {
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
     display: inline-block;
     text-decoration: none;
     color: #555555;
     font-weight: 400;
     font-size: 1.8rem;
     transition: all 0.3s;
-    
+
 
     width: 100%;
     text-align: center;
     line-height: 50px;
-  }
-  
-  .main-nav-link:hover,
-  .main-nav-link:active {
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
     color: #e1e1e0;
-  }
-  
-  .main-nav-link.nav-cta:link,
-  .main-nav-link.nav-cta:visited {
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
     padding: 1.2rem 2.4rem;
     border-radius: 12px;
     color: #fff;
     background-color: #555555;
-  }
-  
-  .main-nav-link.nav-cta:hover,
-  .main-nav-link.nav-cta:active {
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
     background-color: #a0e1d4;
-  }
-
-
-  
+}
 
 
 
-  /**************************/
+
+
+
+/**************************/
 /* HERO SECTION */
 /**************************/
 
@@ -314,106 +314,106 @@
     /* Sizing */
     width: 100vw;
     height: 70vh;
-  
+
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     /* Text styles */
     text-align: center;
     color: #fff;
-  
+
     /* Background styles */
-  
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/group-surfing-hero.jpeg);
+        url(../images/group-surfing-hero.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-  }
 
-  
-  .hero h1 {
+}
+
+
+.hero h1 {
     /* Text styles */
     font-size: 5em;
     color: #fff;
-  
+
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
-  }
-  
-  .hero .btn {
+}
+
+.hero .btn {
     /* Positioning and sizing */
     display: block;
     width: 200px;
-  
+
     /* Padding and margins */
     padding: 1em;
     margin-top: 3.1rem;
     margin-left: auto;
     margin-right: auto;
-  
+
     /* Text styles */
     color: #fff;
     text-decoration: none;
     font-size: 1.5em;
-  
+
     /* Border styles */
     border: 1px solid #555555;
     border-radius: 20px;
-  
+
     /* Background styles */
     background-color: #a0e1d4;
-  }
-  
-  .hero-location {
+}
+
+.hero-location {
     font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
-  }
+}
 
-  /**************************/
+/**************************/
 /* ABOUT SECTION */
 /**************************/
 
 .section-about {
     padding: 4.3rem 0;
-  }
-  
-  .step-number {
+}
+
+.step-number {
     font-size: 40px;
     font-weight: 600;
     color: #a0e1d4;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
     background-color: #555555;
-  }
-  
-  .step-description {
+}
+
+.step-description {
     font-size: 1.8rem;
     line-height: 1.8;
-  }
-  
-  .step-img-box {
+}
+
+.step-img-box {
     position: relative;
     margin-top: 1.2rem;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .step-img-box::before,
-  .step-img-box::after {
+}
+
+.step-img-box::before,
+.step-img-box::after {
     content: "";
     display: block;
     border-radius: 50%;
@@ -421,49 +421,49 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .step-img {
+}
+
+.step-img {
     width: 70%;
     border-radius: 12px;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  }
-  
-  .about-quote {
-    padding-top: 3.1rem;
-  }
+}
 
-  /**************************/
+.about-quote {
+    padding-top: 3.1rem;
+}
+
+/**************************/
 /* SURF/YOGA PACKAGE */
 /**************************/
 
 .section-package {
     padding: 3.1rem 0;
-  }
-  
-  .package {
+}
+
+.package {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 11px;
     overflow: hidden;
     transition: all 0.4s;
-  }
-  
-  .package:hover {
+}
+
+.package:hover {
     transform: translateY(-1.2rem);
     box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
-  }
-  
-  .package-content {
+}
+
+.package-content {
     padding: 3.2rem 4.8rem 4.8rem 4.8rem;
-  }
-  
-  .package-tags {
+}
+
+.package-tags {
     margin-bottom: 1.2rem;
     display: flex;
     gap: 0.4rem;
-  }
-  
-  .tag {
+}
+
+.tag {
     display: inline-block;
     padding: 0.4rem 0.8rem;
     font-size: 1.2rem;
@@ -471,94 +471,96 @@
     color: #555555;
     border-radius: 100px;
     font-weight: 600;
-  }
-  
-  .tag--sea-view {
+}
+
+.tag--sea-view {
     background-color: #a0e1d4;
-  }
-  .tag--surf {
+}
+
+.tag--surf {
     background-color: #a0e1d4;
-  }
-  .tag--yoga {
+}
+
+.tag--yoga {
     background-color: #a0e1d4;
-  }
-  
-  .package-title {
+}
+
+.package-title {
     font-size: 2.4rem;
     color: #555555;
     font-weight: 600;
     margin-bottom: 3.2rem;
-  }
-  
-  .package-attributes {
+}
+
+.package-attributes {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-  }
-  
-  .package-attribute {
+}
+
+.package-attribute {
     font-size: 1.8rem;
     display: flex;
     align-items: center;
     gap: 1.6rem;
-  }
-  
-  .package-icon {
+}
+
+.package-icon {
     height: 2.4rem;
     width: 2.4rem;
     color: #a0e1d4;
-  }
-  
-  .package-img {
+}
+
+.package-img {
     width: 100%;
-  }
-  
-  .all-recipes {
+}
+
+.all-recipes {
     text-align: center;
     font-size: 1.8rem;
-  }
+}
 
-  /**************************/
+/**************************/
 /* KITCHEN */
 /**************************/
 
 .section-the-kitchen {
     padding: 3.1rem 0;
-  }
-  
-  .section-the-kitchen {
+}
+
+.section-the-kitchen {
     /* Sizing */
     width: 100vw;
     height: 70vh;
-  
+
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     /* Text styles */
     text-align: center;
     color: #fff;
-  
+
     /* Background styles */
-  
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/restaurant-view-of-beach.jpeg);
+        url(../images/restaurant-view-of-beach.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-  
-  .heading-primary {
+}
+
+.heading-primary {
     font-size: 50px;
     color: #fff;
     margin-top: 0;
     margin-bottom: 0.5em;
-  }
+}
 
-  /**************************/
+/**************************/
 /* FOOTER */
 /**************************/
 
@@ -566,150 +568,150 @@
     padding: 4.3rem 0;
     border-top: 1px solid #eee;
     background-color: #a0e1d4;
-  }
-  
-  .grid--footer {
+}
+
+.grid--footer {
     grid-template-columns: 1fr 1fr;
-  }
-  
-  .logo-col {
+}
+
+.logo-col {
     display: flex;
     flex-direction: column;
-  }
-  
-  .footer-logo {
+}
+
+.footer-logo {
     display: block;
-   
+
     margin-bottom: 3.2rem;
-  }
-  
-  .social-links {
+}
+
+.social-links {
     list-style: none;
     display: flex;
     gap: 2.4rem;
-  }
-  
-  .social-icon {
+}
+
+.social-icon {
     height: 2.4rem;
     width: 2.4rem;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     font-size: 1.4rem;
     line-height: 1.6;
     color: #767676;
     margin-top: auto;
-  }
-  
-  .footer-heading {
+}
+
+.footer-heading {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 4rem;
-  }
-  
-  .contacts {
+}
+
+.contacts {
     font-style: normal;
     font-size: 1.6rem;
     line-height: 1.6;
-  }
-  
-  .address {
+}
+
+.address {
     margin-bottom: 2.4rem;
-  }
-  
-  .footer-nav {
+}
+
+.footer-nav {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
-  }
-  
-  .footer-link:link,
-  .footer-link:visited {
+}
+
+.footer-link:link,
+.footer-link:visited {
     text-decoration: none;
     font-size: 1.6rem;
     color: #767676;
     transition: all 0.3s;
-  }
-  
-  .footer-link:hover,
-  .footer-link:active {
+}
+
+.footer-link:hover,
+.footer-link:active {
     color: #555;
-  }
+}
 
 
-  /**************************/
+/**************************/
 /* ACCOMADATION */
 /**************************/
 
 .section-accomadation {
-  /* Sizing */
-  width: 100vw;
-  height: 70vh;
+    /* Sizing */
+    width: 100vw;
+    height: 70vh;
 
-  /* Flexbox stuff */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  /* Text styles */
-  text-align: center;
-  color: #fff;
+    /* Text styles */
+    text-align: center;
+    color: #fff;
 
-  /* Background styles */
+    /* Background styles */
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-    url(../images/view-of-beach-from-glamping-tent.jpeg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+        url(../images/view-of-beach-from-glamping-tent.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero h1 {
-  /* Text styles */
-  font-size: 5em;
-  color: #fff;
+    /* Text styles */
+    font-size: 5em;
+    color: #fff;
 
-  /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5em;
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
 .section-accomadation-info {
-  padding: 3.2rem 3.2rem 0 3.2rem;
+    padding: 3.2rem 3.2rem 0 3.2rem;
 }
 
 .accomadation {
-  color: #555555;
-  font-size: 1.8rem;
-  line-height: 1.8;
-  margin-bottom: 3.2rem;
-  padding-bottom: 1.5rem;
+    color: #555555;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+    padding-bottom: 1.5rem;
 }
 
 .glamping {
-  /* Sizing */
-  width: 100vw;
-  height: 70vh;
+    /* Sizing */
+    width: 100vw;
+    height: 70vh;
 
-  /* Flexbox stuff */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  /* Text styles */
-  text-align: center;
-  color: #fff;
+    /* Text styles */
+    text-align: center;
+    color: #fff;
 
-  /* Background styles */
+    /* Background styles */
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-    url(../images/view-of-inside-glmaping-tent.jpeg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
+        url(../images/view-of-inside-glmaping-tent.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /**************************/
@@ -720,51 +722,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  
-  .kitchen-container {
+}
+
+
+.kitchen-container {
     padding: 3.1rem;
-  }
-  
-  .kitchen-img {
+}
+
+.kitchen-img {
     width: 6.4rem;
     border-radius: 50%;
     margin-bottom: 1.2rem;
-  }
-  
-  .kitchen-text {
+}
+
+.kitchen-text {
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 10px;
-  }
-  
-  .kitchen-name {
+}
+
+.kitchen-name {
     font-size: 1.6rem;
     color: #555555;
-  }
-  
-  .gallery {
+}
+
+.gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     padding: 5px;
-    
-  }
-  
-  .gallery-item {
+
+}
+
+.gallery-item {
     overflow: hidden;
-  }
-  
-  .gallery-item img {
+}
+
+.gallery-item img {
     display: block;
     width: 100%;
     transition: all 0.4s;
-  }
-  
-  .gallery-item img:hover {
+}
+
+.gallery-item img:hover {
     transform: scale(1.1);
-  }
+}
 
 
 
@@ -778,47 +780,47 @@
     /* Sizing */
     width: 100vw;
     height: 70vh;
-  
+
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     /* Text styles */
     text-align: center;
     color: #fff;
-  
+
     /* Background styles */
-  
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/girl-surfing-sunset.jpeg);
+        url(../images/girl-surfing-sunset.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    
-  }
 
-  .hero h1 {
+}
+
+.hero h1 {
     /* Text styles */
     font-size: 5em;
     color: #fff;
-  
+
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
-  }
-  
-  .retreat {
+}
+
+.retreat {
     color: #555555;
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 3.2rem;
     padding-bottom: 1.5rem;
-  }
-  
-  .retreat-background {
+}
+
+.retreat-background {
     color: #a0e1d4;
     background-color: #555555;
     height: 30px;
@@ -827,42 +829,42 @@
     line-height: 1.8;
     margin-bottom: 3.2rem;
     padding-bottom: 1.5rem;
-  }
-  
-  .retreat-list {
+}
+
+.retreat-list {
     align-content: center;
     color: #555555;
     font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 3.2rem;
     padding-bottom: 1.5rem;
-  }
-  
-  .section-yoga {
+}
+
+.section-yoga {
     /* Sizing */
     width: 100vw;
     height: 70vh;
-  
+
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     /* Text styles */
     text-align: center;
     color: #fff;
-  
+
     /* Background styles */
-  
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.269)),
-      url(../images/two-girl-doing-yoga.jpeg);
+        url(../images/two-girl-doing-yoga.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
+}
 
-  /* Form */
+/* Form */
 
 .form-section {
     clear: left;
@@ -870,7 +872,7 @@
     background-size: cover;
     background-position: center;
     height: 600px;
-    
+
 }
 
 .signup-form {
@@ -884,14 +886,14 @@
     border-radius: 12px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #555555;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #555555;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -920,232 +922,231 @@
 }
 
 
-  
-  
 
-  /**************************/
+
+
+/**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
 @media (max-width: 84em) {
     .hero {
-      max-width: 120rem;
+        max-width: 120rem;
     }
-  
-    .heading-primary {
-      font-size: 4.4rem;
-    }
-  
-    .gallery {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
 
-  /**************************/
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
 
 @media (max-width: 75em) {
     html {
-      /* 9px / 16px  */
-      font-size: 56.25%;
+        /* 9px / 16px  */
+        font-size: 56.25%;
     }
-  
+
     .grid {
-      column-gap: 4.8rem;
-      row-gap: 6.4rem;
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
     }
-  
+
     .heading-secondary {
-      font-size: 3.6rem;
+        font-size: 3.6rem;
     }
-  
+
     .heading-tertiary {
-      font-size: 2.4rem;
+        font-size: 2.4rem;
     }
-  
+
     .header {
-      padding: 0 3.2rem;
+        padding: 0 3.2rem;
     }
-  
+
     .main-nav-list {
-      gap: 3.2rem;
+        gap: 3.2rem;
     }
-  
+
     .hero {
-      gap: 4.8rem;
+        gap: 4.8rem;
     }
-  
+
     .gallery {
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
 
-      .logo {
+    .logo {
         height: 80px;
-        
-      }
-  }
 
-  /**************************/
+    }
+}
+
+/**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
 
 @media (max-width: 59em) {
     html {
-      /* 8px / 16px = 0.5 = 50% */
-      font-size: 50%;
+        /* 8px / 16px = 0.5 = 50% */
+        font-size: 50%;
     }
- 
+
     .hero {
-      grid-template-columns: 1fr;
-      padding: 0 8rem;
-      gap: 6.4rem;
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
     }
-  
+
     .hero-text-box {
-      text-align: center;
+        text-align: center;
     }
 
     .main-nav-list {
         gap: 2.5rem;
-      }
+    }
 
-    
-  
- .section-accomadation-info, .section-accomadation-info .container .section-the-kitchen{
-    grid-template-columns: 2fr;
-      padding: 3.1rem 8rem;
-      gap: 6.4rem;
- }
-  
+
+
+    .section-accomadation-info,
+    .section-accomadation-info .container .section-the-kitchen {
+        grid-template-columns: 2fr;
+        padding: 3.1rem 8rem;
+        gap: 6.4rem;
+    }
+
     .section-about {
-      justify-content: center;
-      margin-top: 3.2rem;
+        justify-content: center;
+        margin-top: 3.2rem;
     }
 
-  
+
     .logos img {
-      height: 2.4rem;
+        height: 2.4rem;
     }
-  
-    .step-number {
-      font-size: 3.7rem;
-    }
-  
-    .package-content {
-      padding: 2.4rem 3.2rem 3.2rem 3.2rem;
-    }
-  
-    
-  
-    .gallery {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  
-  
-    .btn--form {
-      margin-top: 1.2rem;
-    }
-  
-  
-  }
 
-  /**************************/
+    .step-number {
+        font-size: 3.7rem;
+    }
+
+    .package-content {
+        padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    }
+
+
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .btn--form {
+        margin-top: 1.2rem;
+    }
+
+
+}
+
+/**************************/
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 
 @media (max-width: 44em) {
+
     .grid--3-cols,
     .grid--4-cols {
-      grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    
-   
-  
+
+
+
     .heading-secondary {
-      margin-bottom: 4.8rem;
+        margin-bottom: 4.8rem;
     }
-  
+
     .package {
-      width: 90%;
-      justify-self: center;
+        width: 90%;
+        justify-self: center;
     }
-  
+
     .grid--footer {
-      grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
-  
+
     .logo-col,
     .address-col {
-      grid-column: span 3;
+        grid-column: span 3;
     }
-  
-    .nav-col {
-      grid-row: 1;
-      grid-column: span 2;
-      margin-bottom: 3.2rem;
-    }
-  }
 
-  /**************************/
+    .nav-col {
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+    }
+}
+
+/**************************/
 /* BELOW 544px (Phones) */
 /**************************/
 
 @media (max-width: 34em) {
     .grid {
-      row-gap: 3.6rem;
+        row-gap: 3.6rem;
     }
 
     .grid--2-cols,
     .grid--3-cols,
     .grid--4-cols {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 
     .hero h1 {
         font-size: 4rem;
     }
 
-      .main-nav-link:link,
-      .main-nav-link:visited {
+    .main-nav-link:link,
+    .main-nav-link:visited {
         font-size: 1.4rem;
-      }
+    }
 
-      .main-nav-list {
+    .main-nav-list {
         gap: 2.2rem;
-        
-      }
+
+    }
 
 
-      .btn,
-      .btn:link,
-      .btn:visited {
+    .btn,
+    .btn:link,
+    .btn:visited {
         padding: 1.4rem 1.6rem;
         margin-bottom: 10px;
-        
-      }
 
-      .hero .btn {
+    }
+
+    .hero .btn {
         width: 100%;
-      }
+    }
 
-      .hero {
+    .hero {
         padding: 0 3.2rem;
-      }
+    }
 
     .gallery {
         grid-template-columns: repeat(1, 1fr);
-      }
+    }
 
-      .logos img {
+    .logos img {
         height: 1.2rem;
-      }
+    }
 
-      .step-img-box:nth-child(2) {
+    .step-img-box:nth-child(2) {
         grid-row: 1;
-      }
-  
+    }
+
 }
-
-
-  
