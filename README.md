@@ -53,7 +53,7 @@ an overview of the accommadation avalbale at Wave retreat. Explaining the design
 
 ![accommodation info](/assets/images/accommodation-info.png)
 
-![facilities list and check in and out times](/assets/images/facilities.png)
+![facilities list and check in and out times](/assets/images/facilities-info.png)
 
 **Retreat page**
 
@@ -68,7 +68,7 @@ Dail schedule added to see how each day would look like for the guests.
 
 Finnished with a full width yoga image on the beach before the footer. 
 
-![yogoa hero](/assets/images/yoga-hero.png)
+![yogoa hero](/assets/images/yogo-hero.png)
 
 **Kitchen**
 
