@@ -1,108 +1,110 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Wave Resort
 
-Welcome USER_NAME,
+Wave surf, yoga & eco retreat is a site for like-minded people looking for a special retreat to enjoy surfing, yoga and meditation. In unique surroundings in Portugal. This is an eco-retreat set up by the founders Daniel and Sarah smith. The site is targeted towards adults between 25-50 who are interested in self-development, personal growth, and healthy lifestyle. Often active, adventurous, environmentally conscious, and interests in sustainable travel option. The is website offers a range of interest including surfing, yoga, meditation and healthy sustainable food.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Screenshot 2023-05-16 at 12 08 15](https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/e3d36e7c-11a2-4a7e-a57c-467df82fb02e)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Navigation Bar
 
-`python3 -m http.server`
+Featured on all four pages and the thank you page, the full responsive navigation bar includes links to the Logo, Accommadtion, Retreat, Kitchen, and Book page and is identical in each page to allow for easy navigation. The logo links back to the home page in the header and the footer.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-A blue button should appear to click: _Make Public_,
+<img width="1361" alt="Screenshot 2023-05-16 at 12 10 11" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/19e5870f-9412-4677-a48e-3173428ebb7c">
 
-Another blue button should appear to click: _Open Browser_.
+The landing page image
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The landing includes a hero image with text overlay to allow the user to see what the surfing location looks like and the country it is in. There is a btn to book the retreat overlaying the hero image. 
 
-A blue button should appear to click: _Make Public_,
+<img width="1361" alt="Screenshot 2023-05-16 at 12 23 17" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/01403fda-564b-4acb-b06a-0107d17c4690">
 
-Another blue button should appear to click: _Open Browser_.
+About section 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Explains the story behind Wave retreat and why you would want to stay here. It also introduces the founders Daniel and Sarah Smith. With there background and experince. 
 
-To log into the Heroku toolbelt CLI:
+<img width="1366" alt="Screenshot 2023-05-16 at 12 54 40" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/c33c8092-f556-4b24-9fef-598486c6ff94">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Package section
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This are is to show some of things included in the package. Accommadation, Surfing and yoga. using images to show examples of each area. Also explaining skill levels required for activites. 
 
-------
+<img width="1366" alt="Screenshot 2023-05-16 at 12 57 30" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/80900617-c0d2-409e-ac5c-676320145673">
 
-## Release History
+The Kitchen 
+Full width image showing the loacation where guests will eat. With overlay text and link to sample menu. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<img width="1366" alt="Screenshot 2023-05-16 at 12 59 16" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/5f34b430-b292-4a6d-aa01-c6f66298348c">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Footer
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The footer section includes links to the relevant social media sites for Love Running. 
+The links will open to a new tab to allow easy navigation for the user.
+The footer also includes the loacation address and contact details. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<img width="1366" alt="Screenshot 2023-05-16 at 13 01 03" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/0273cd7f-363b-48e9-bf53-8c3e93c46d9b">
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Accommadation page 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+an overview of the accommadation avalbale at Wave retreat. Explaining the design and how many people can sleep. explains in detail the interiour and the fascilities available in an unordered list. also included are the check in and check out times. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<img width="1294" alt="Screenshot 2023-05-16 at 13 06 17" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/07b29d5b-228d-4ceb-9bc7-26f2d4a02cf2">
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<img width="1294" alt="Screenshot 2023-05-16 at 13 06 53" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/1acf7aa0-b77a-4605-8881-1334e9502387">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Retreat page 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This page explains the diffrent opetioans availble at the retreat with Surfing, Yoga and mediatation. It starts with a full widt scrolling image of a girl surfing at sunset. With Text over lay explaining the page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<img width="1294" alt="Screenshot 2023-05-16 at 13 10 18" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/4ad56005-cfc2-4786-81a6-5f93f3f7b970">
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Bellow are the diffrent sections of Surfing, Yoga and meditation. Exlplaining the deffrent levels beginner, intremediate and advamce options. 
+Dail schedule added to see how each day would look like for the guests. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<img width="1294" alt="Screenshot 2023-05-16 at 13 12 36" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/f8baf76d-6d63-40a7-97e6-c43962b36527">
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Finnished with a full width ypga image on the beach before the footer. 
 
-------
+<img width="1294" alt="Screenshot 2023-05-16 at 13 12 51" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/b9f4853e-1143-4b09-a1d2-87013c40c51c">
 
-## FAQ about the uptime script
+Kitchen
 
-**Why have you added this script?**
+Full width hero image showing where guests will eat. This has a text overlay.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<img width="1294" alt="Screenshot 2023-05-16 at 13 56 36" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/85ae474d-2b02-4a56-b115-89dff83b0749">
 
-**How will this affect me?**
+Bellow this an explanaition of how the dishes are insped ad preppared. With an unodered list of a selection of options for breakfast buffet and dinner buffet. This is the page that is linked to the landing page. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<img width="1294" alt="Screenshot 2023-05-16 at 13 56 57" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/0d4bc8d4-1e52-4d3f-aaae-d6b0285059ff">
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+next is the gallery of 8 images os example dishes. With a transition on each zooming in slightly. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<img width="1294" alt="Screenshot 2023-05-16 at 13 57 13" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/3bf11f05-2f5b-4d7f-98bf-4b684b822987">
 
-**So….?**
+Book
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The booking page has a full width hero image of a group of people jumping on the beach in the sunset. The booking form is a overlay. 
 
-**Can I opt out?**
+<img width="1294" alt="Screenshot 2023-05-16 at 14 00 17" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/285fb5ae-3625-4373-872a-9a446ceba325">
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The user will be asked to submit their full name and email address. Then taken to a thank you page. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<img width="1294" alt="Screenshot 2023-05-16 at 14 00 43" src="https://github.com/KristianDsmith/wave-project-1-official/assets/131862717/8629f640-b7a0-4c42-a8a6-662605526d8d">
 
-**Anything more?**
+Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+HTML
+No errors were returned when passing through the official W3C validator
 
----
+CSS
+No errors were found when passing through the official (Jigsaw) validator
 
-Happy coding!
+Content
+The text for the all pages written by Kristian Smith
+
+The icons in the footer, landing, kicthen, package and accomadation pages  were taken from ionicons.com
+
+Media
+The photos used on the landing, accommadation, retreat, kitchen, book and thank you pages are from this Open Source site pexels.com
