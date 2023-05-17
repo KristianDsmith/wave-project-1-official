@@ -148,7 +148,7 @@
 **Accessibility and performance**
 - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 
-![lighthouse test score](/assets/images/lighthouse-score.png)
+![lighthouse test score](/assets/images/lightouse-score.png)
 
 ## Content
 
