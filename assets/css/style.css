@@ -262,10 +262,10 @@ strong {
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     justify-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
 
     align-items: center;
-    gap: 4.8rem;
+    gap: 2.4rem;
 }
 
 .main-nav-link:link,
@@ -274,7 +274,7 @@ strong {
     text-decoration: none;
     color: #555555;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     transition: all 0.3s;
 
 
@@ -971,7 +971,12 @@ strong {
     }
 
     .main-nav-list {
-        gap: 3.2rem;
+        gap: 2.4rem;
+        margin-top: 40px;
+    }
+
+    .main-nav-linl {
+        font-size: 1.8rem,
     }
 
     .hero {
@@ -1009,7 +1014,13 @@ strong {
     }
 
     .main-nav-list {
-        gap: 2.5rem;
+        gap: 1.6rem;
+        margin-top: 30px;
+    }
+
+    .main-nav-link {
+        font-size: 1.6rem;
+        
     }
 
 
@@ -1064,6 +1075,14 @@ strong {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .main-nav-list {
+        gap: 1.2rem; /* Adjust the gap as per your preference */
+        margin-top: 20px; /* Adjust the margin as per your preference */
+    }
+
+    .main-nav-link {
+        font-size: 1.4rem;
+    }
 
 
     .heading-secondary {
@@ -1110,13 +1129,18 @@ strong {
         font-size: 4rem;
     }
 
+    .main-nav-link {
+        font-size: 1.2rem;;
+    }
+
     .main-nav-link:link,
     .main-nav-link:visited {
         font-size: 1.4rem;
     }
 
     .main-nav-list {
-        gap: 2.2rem;
+        gap: 1rem;
+        margin-top: 1.2rem;
 
     }
 
